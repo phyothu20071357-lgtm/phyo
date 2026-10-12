@@ -1,4 +1,4 @@
-flask
+gunicorn ngaton:app_flask --bind 0.0.0.0:$PORT
 python-telegram-bot>=21.0,<22.0
 aiohttp>=3.9.0,<4.0.0
 aiohttp-socks>=0.8.4
